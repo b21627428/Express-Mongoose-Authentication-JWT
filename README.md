@@ -2,11 +2,15 @@
 ```bash
 docker image build . -t uzumlukek/express-mongoose-jwt-authentication
 ```
-<b>Run:</b> docker container run -d -p 3000:3000 --env-file ./.env uzumlukek/express-mongoose-jwt-authentication <br/>
+<b>Run:</b> 
+```bash
+docker container run -d -p 3000:3000 --env-file ./.env uzumlukek/express-mongoose-jwt-authentication <br/>
+```
 <br/>
-<b>.env File Content: </b><br/>
+<b>.env File Content: </b>
+
 DB_CONNECT=mongodb+srv://<b>$username</b>:<b>$password</b>@<b>$cluster-url</b>?retryWrites=true&w=majority <br/>
-TOKEN_SECRET=TOKEN_SECRET <br/>
+TOKEN_SECRET=TOKEN_SECRET
 
 <b>End-points</b><br/>
 HTTP POST<br/>
