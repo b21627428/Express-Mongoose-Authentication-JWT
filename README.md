@@ -4,7 +4,7 @@ docker image build . -t uzumlukek/express-mongoose-jwt-authentication
 ```
 <b>Run:</b> 
 ```bash
-docker container run -d -p 3000:3000 --env-file ./.env uzumlukek/express-mongoose-jwt-authentication <br/>
+docker container run -d -p 3000:3000 --env-file ./.env uzumlukek/express-mongoose-jwt-authentication
 ```
 <br/>
 <b>.env File Content: </b>
