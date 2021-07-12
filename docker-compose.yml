@@ -1,0 +1,10 @@
+version: '3'
+
+services: 
+    local-firestore:
+        build: 
+            context: .
+            dockerfile: Dockerfile
+        image: uzumlukek/express-mongoose-jwt-authentication
+        ports: 
+            - '3000:3000'
